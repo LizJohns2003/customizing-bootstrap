@@ -3,9 +3,9 @@
 
 // Import Google fonts here
 
-<style>
+
   @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3&display=swap');
-</style>
+
 
 
 
@@ -21,17 +21,17 @@ $light: #f2f2f2;
 $dark: #181853;
 
 
-// Adjust nav link hover color here
 
+// Adjust nav link hover color here
+$navbar-dark-hover-color: $primary;
 
 
 // Typography
 // Change font family for base text
-
+$font-family-sans-serif: 'Source Sans', sans-serif;
 
 // Change font family for headings
-
-
+$headings-font-family: 'Baskerville', sans-serif;
 
 // Change font sizes for h1-h6 using values in assignment
 $display-font-sizes: (
@@ -47,4 +47,7 @@ $display-font-sizes: (
 
 // Add additional custom code here
 
+
 // Target .navbar-brand and change font-family to use 'Libre Baskerville'.
+
+$navbar-font-family-sans-serif: 'Baskerville', sans-serif;
